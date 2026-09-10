@@ -1,53 +1,177 @@
 [
 {
   "id": "CNC_01",
+  "timestamp": "2026-9-10-16:7:6",
+  "temperature": "65°C",
+  "vibration": "3mm/s",
+  "rpm": "2675"
+},
+{
+  "id": "CNC_02",
+  "timestamp": "2026-9-10-16:7:6",
+  "temperature": "70°C",
+  "vibration": "2mm/s",
+  "rpm": "3115"
+},
+{
+  "id": "CNC_03",
+  "timestamp": "2026-9-10-16:7:6",
   "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
+  "vibration": "7mm/s",
+  "rpm": "3190"
+},
+{
+  "id": "CNC_04",
+  "timestamp": "2026-9-10-16:7:6",
+  "temperature": "99°C",
+  "vibration": "2mm/s",
+  "rpm": "3708"
+},
+{
+  "id": "CNC_05",
+  "timestamp": "2026-9-10-16:7:6",
+  "temperature": "75°C",
+  "vibration": "2mm/s",
+  "rpm": "1914"
+},
+{
   "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
+  "timestamp": "2026-9-10-16:7:8",
+  "temperature": "96°C",
+  "vibration": "6mm/s",
+  "rpm": "1914"
+},
+{
+  "id": "CNC_02",
+  "timestamp": "2026-9-10-16:7:8",
+  "temperature": "101°C",
+  "vibration": "2mm/s",
+  "rpm": "2239"
+},
+{
+  "id": "CNC_03",
+  "timestamp": "2026-9-10-16:7:8",
+  "temperature": "74°C",
+  "vibration": "10mm/s",
+  "rpm": "2383"
+},
+{
+  "id": "CNC_04",
+  "timestamp": "2026-9-10-16:7:8",
+  "temperature": "89°C",
+  "vibration": "9mm/s",
+  "rpm": "2546"
+},
+{
+  "id": "CNC_05",
+  "timestamp": "2026-9-10-16:7:8",
+  "temperature": "74°C",
+  "vibration": "10mm/s",
+  "rpm": "2057"
+},
+{
   "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
+  "timestamp": "2026-9-10-16:7:11",
+  "temperature": "78°C",
+  "vibration": "9mm/s",
+  "rpm": "1783"
+},
+{
+  "id": "CNC_02",
+  "timestamp": "2026-9-10-16:7:11",
+  "temperature": "77°C",
+  "vibration": "9mm/s",
+  "rpm": "3545"
+},
+{
+  "id": "CNC_03",
+  "timestamp": "2026-9-10-16:7:11",
+  "temperature": "78°C",
+  "vibration": "5mm/s",
+  "rpm": "2246"
+},
+{
+  "id": "CNC_04",
+  "timestamp": "2026-9-10-16:7:11",
+  "temperature": "92°C",
+  "vibration": "10mm/s",
+  "rpm": "1666"
+},
+{
+  "id": "CNC_05",
+  "timestamp": "2026-9-10-16:7:11",
+  "temperature": "65°C",
+  "vibration": "3mm/s",
+  "rpm": "2959"
+},
+{
   "id": "CNC_01",
-  "temperature": "60°C",
+  "timestamp": "2026-9-10-16:7:13",
+  "temperature": "63°C",
+  "vibration": "5mm/s",
+  "rpm": "1831"
+},
+{
+  "id": "CNC_02",
+  "timestamp": "2026-9-10-16:7:13",
+  "temperature": "77°C",
   "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
+  "rpm": "3053"
+},
+{
+  "id": "CNC_03",
+  "timestamp": "2026-9-10-16:7:13",
+  "temperature": "78°C",
+  "vibration": "4mm/s",
+  "rpm": "3092"
+},
+{
+  "id": "CNC_04",
+  "timestamp": "2026-9-10-16:7:13",
+  "temperature": "90°C",
+  "vibration": "0mm/s",
+  "rpm": "3601"
+},
+{
+  "id": "CNC_05",
+  "timestamp": "2026-9-10-16:7:13",
+  "temperature": "90°C",
+  "vibration": "10mm/s",
+  "rpm": "2660"
+},
+{
   "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
-  "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
-  "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
-  "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
-  "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","{
-  "id": "CNC_01",
-  "temperature": "60°C",
-  "vibration": "8mm/s",
-  "rpm": "1862"
-}","
+  "timestamp": "2026-9-10-16:7:16",
+  "temperature": "71°C",
+  "vibration": "7mm/s",
+  "rpm": "2441"
+},
+{
+  "id": "CNC_02",
+  "timestamp": "2026-9-10-16:7:16",
+  "temperature": "80°C",
+  "vibration": "9mm/s",
+  "rpm": "1623"
+},
+{
+  "id": "CNC_03",
+  "timestamp": "2026-9-10-16:7:16",
+  "temperature": "91°C",
+  "vibration": "0mm/s",
+  "rpm": "3039"
+},
+{
+  "id": "CNC_04",
+  "timestamp": "2026-9-10-16:7:16",
+  "temperature": "100°C",
+  "vibration": "7mm/s",
+  "rpm": "1888"
+},
+{
+  "id": "CNC_05",
+  "timestamp": "2026-9-10-16:7:16",
+  "temperature": "85°C",
+  "vibration": "1mm/s",
+  "rpm": "3676"
+}
 ]

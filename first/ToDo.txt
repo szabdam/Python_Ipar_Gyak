@@ -2,6 +2,8 @@
 a cnc gépeket 1 jsonbe rekordba hozni úgy, 
 hogy a rekordok el legyenek látva egy közös timestemppel
 
-JSON file formázás mert nem az igazi
 
-Valami baj van a randommal
+JSON file formázás mert nem az igazi
+                DONE
+
+Valami baj van a randommal s
