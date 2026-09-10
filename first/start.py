@@ -10,18 +10,24 @@ def printMoreToJSON(clss, rng: int, fileName: str) -> None:
            "temperature": clss.temperature,
            "vibration": clss.vibration,
            "rpm": clss.rpm}
+    f = open(myFile, "w")
+    f.write("[")
+    f.close()
     
     try:
         with open(fileName, "a", encoding="utf-8") as myFile:
             for i in range(rng):
                 json.dump(cnc, myFile, indent=4, ensure_ascii=False)
+                clss.getNewData()
 
     except FileNotFoundError:
         with open(fileName, "w", encoding="utf-8") as myFile:
             for i in range(rng):
-                json.dump(cnc, myFile, indent=4, ensure_ascii=False)
+                json.dump(cnc, myFile, indent=2, ensure_ascii=False, separators=",")
                 
-    clss.getNewData()
+    f = open(myFile, "a")
+    f.write("]")
+    f.close()
 
 
 class CNC:
