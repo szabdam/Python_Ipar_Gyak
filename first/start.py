@@ -1,3 +1,6 @@
+#Projekt start: 2026.09.10.
+#Ezen dolgozott órák: 3
+
 from numpy import random
 import json
 import time
@@ -10,23 +13,25 @@ def printMoreToJSON(clss, rng: int, fileName: str) -> None:
            "temperature": clss.temperature,
            "vibration": clss.vibration,
            "rpm": clss.rpm}
-    f = open(myFile, "w")
-    f.write("[")
+    f = open(fileName, "w")
+    f.write("[\n")
     f.close()
     
     try:
         with open(fileName, "a", encoding="utf-8") as myFile:
             for i in range(rng):
-                json.dump(cnc, myFile, indent=4, ensure_ascii=False)
+                json.dump(cnc, myFile, indent=2, ensure_ascii=False)
                 clss.getNewData()
+                json.dump(',', myFile)
 
     except FileNotFoundError:
         with open(fileName, "w", encoding="utf-8") as myFile:
             for i in range(rng):
-                json.dump(cnc, myFile, indent=2, ensure_ascii=False, separators=",")
+                json.dump(cnc, myFile, indent=2, ensure_ascii=False)
+                clss.getNewData()
                 
-    f = open(myFile, "a")
-    f.write("]")
+    f = open(fileName, "a")
+    f.write("\n]")
     f.close()
 
 
